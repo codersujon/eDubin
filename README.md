@@ -1,6 +1,6 @@
 # eDubin
 
-This template should help get you started developing with Vue 3 in Vite.
+eDubin is a HTML Template. In this Serious we compeletly convert this template to vue3.
 
 ## Project Setup
 
