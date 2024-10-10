@@ -1,5 +1,5 @@
 <script setup>
-
+import {RouterLink} from "vue-router";
 </script>
 
 <template>
@@ -49,9 +49,9 @@
         <div class="row">
           <div class="col-lg-4 col-md-4">
             <div class="logo">
-              <a href="index-2.html">
+              <RouterLink to="/">
                 <img src="../assets/images/logo.png" alt="Logo">
-              </a>
+              </RouterLink>
             </div>
           </div>
           <div class="col-lg-8 col-md-8">
@@ -88,7 +88,7 @@
               <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
-                    <a class="active" href="index-2.html">Home</a>
+                    <RouterLink class="active" to="/">Home</RouterLink>
                     <ul class="sub-menu">
                       <li><a class="active" href="index-2.html">Home 01</a></li>
                       <li><a href="index-3.html">Home 02</a></li>
@@ -96,7 +96,7 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="about.html">About us</a>
+                    <RouterLink to="/about">About us</RouterLink>
                   </li>
                   <li class="nav-item">
                     <a href="courses.html">Courses</a>
@@ -155,7 +155,6 @@
         </div> <!-- row -->
       </div> <!-- container -->
     </div>
-
   </header>
   <!--====== HEADER PART ENDS ======-->
 </template>
