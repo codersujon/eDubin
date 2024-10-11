@@ -134,7 +134,7 @@ import {RouterLink} from "vue-router";
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="contact.html">Contact</a>
+                    <RouterLink to="/contact">Contact</RouterLink>
                     <ul class="sub-menu">
                       <li><a href="contact.html">Contact Us</a></li>
                       <li><a href="contact-2.html">Contact Us 2</a></li>
