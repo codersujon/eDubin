@@ -15,10 +15,10 @@
                 </div>
                 <p>Gravida nibh vel velit auctor aliquetn quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
                 <ul class="mt-20">
-                  <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><RouterLink to="#"><i class="fa fa-facebook-f"></i></RouterLink></li>
+                  <li><RouterLink to="#"><i class="fa fa-twitter"></i></RouterLink></li>
+                  <li><RouterLink to="#"><i class="fa fa-google-plus"></i></RouterLink></li>
+                  <li><RouterLink to="#"><i class="fa fa-instagram"></i></RouterLink></li>
                 </ul>
               </div> <!-- footer about -->
             </div>
@@ -28,18 +28,20 @@
                   <h6>Sitemap</h6>
                 </div>
                 <ul>
-                  <li><a href="index-2.html"><i class="fa fa-angle-right"></i>Home</a></li>
-                  <li><a href="about.html"><i class="fa fa-angle-right"></i>About us</a></li>
-                  <li><a href="courses.html"><i class="fa fa-angle-right"></i>Courses</a></li>
-                  <li><a href="blog.html"><i class="fa fa-angle-right"></i>News</a></li>
-                  <li><a href="events.html"><i class="fa fa-angle-right"></i>Event</a></li>
+                  <li>
+                    <RouterLink to="/"><i class="fa fa-angle-right"></i>Home</RouterLink>
+                  </li>
+                  <li><RouterLink to="/about"><i class="fa fa-angle-right"></i>About us</RouterLink></li>
+                  <li><RouterLink to="/courses"><i class="fa fa-angle-right"></i>Courses</RouterLink></li>
+                  <li><RouterLink to="/blog"><i class="fa fa-angle-right"></i>News</RouterLink></li>
+                  <li><RouterLink to="/events"><i class="fa fa-angle-right"></i>Event</RouterLink></li>
                 </ul>
                 <ul>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Gallery</a></li>
-                  <li><a href="shop.html"><i class="fa fa-angle-right"></i>Shop</a></li>
-                  <li><a href="teachers.html"><i class="fa fa-angle-right"></i>Teachers</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
-                  <li><a href="contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+                  <li><RouterLink to="#"><i class="fa fa-angle-right"></i>Gallery</RouterLink></li>
+                  <li><RouterLink to="/shop"><i class="fa fa-angle-right"></i>Shop</RouterLink></li>
+                  <li><RouterLink to="/teachers"><i class="fa fa-angle-right"></i>Teachers</RouterLink></li>
+                  <li><RouterLink to="#"><i class="fa fa-angle-right"></i>Support</RouterLink></li>
+                  <li><RouterLink to="/contact"><i class="fa fa-angle-right"></i>Contact</RouterLink></li>
                 </ul>
               </div> <!-- footer link -->
             </div>
@@ -49,11 +51,11 @@
                   <h6>Support</h6>
                 </div>
                 <ul>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>FAQS</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Privacy</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Policy</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Documentation</a></li>
+                  <li><RouterLink to="#"><i class="fa fa-angle-right"></i>FAQS</RouterLink></li>
+                  <li><RouterLink to="#"><i class="fa fa-angle-right"></i>Privacy</RouterLink></li>
+                  <li><RouterLink to="#"><i class="fa fa-angle-right"></i>Policy</RouterLink></li>
+                  <li><RouterLink to="#"><i class="fa fa-angle-right"></i>Support</RouterLink></li>
+                  <li><RouterLink to="#"><i class="fa fa-angle-right"></i>Documentation</RouterLink></li>
                 </ul>
               </div> <!-- support -->
             </div>
@@ -99,7 +101,7 @@
           <div class="row">
             <div class="col-md-8">
               <div class="copyright text-md-left text-center pt-15">
-                <p><a target="_blank" href="https://codersujon.com/">CoderSujon</a> </p>
+                <p><RouterLink target="_blank" href="https://codersujon.com/">CODERS</RouterLink> </p>
               </div>
             </div>
             <div class="col-md-4">

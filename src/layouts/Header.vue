@@ -89,56 +89,27 @@ import {RouterLink} from "vue-router";
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
                     <RouterLink class="active" to="/">Home</RouterLink>
-                    <ul class="sub-menu">
-                      <li><a class="active" href="index-2.html">Home 01</a></li>
-                      <li><a href="index-3.html">Home 02</a></li>
-                      <li><a href="index-4.html">Home 03</a></li>
-                    </ul>
                   </li>
                   <li class="nav-item">
                     <RouterLink to="/about">About us</RouterLink>
                   </li>
                   <li class="nav-item">
-                    <a href="courses.html">Courses</a>
-                    <ul class="sub-menu">
-                      <li><a href="courses.html">Courses</a></li>
-                      <li><a href="courses-singel.html">Course Singel</a></li>
-                    </ul>
+                    <RouterLink to="/courses">Courses</RouterLink>
                   </li>
                   <li class="nav-item">
-                    <a href="events.html">Events</a>
-                    <ul class="sub-menu">
-                      <li><a href="events.html">Events</a></li>
-                      <li><a href="events-singel.html">Event Singel</a></li>
-                    </ul>
+                    <RouterLink to="/events">Events</RouterLink>
                   </li>
                   <li class="nav-item">
-                    <a href="teachers.html">Our teachers</a>
-                    <ul class="sub-menu">
-                      <li><a href="teachers.html">teachers</a></li>
-                      <li><a href="teachers-singel.html">teacher Singel</a></li>
-                    </ul>
+                    <RouterLink to="/teachers">Our teachers</RouterLink>
                   </li>
                   <li class="nav-item">
-                    <a href="blog.html">Blog</a>
-                    <ul class="sub-menu">
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="blog-singel.html">Blog Singel</a></li>
-                    </ul>
+                    <RouterLink to="/blog">Blog</RouterLink>
                   </li>
                   <li class="nav-item">
-                    <a href="shop.html">Shop</a>
-                    <ul class="sub-menu">
-                      <li><a href="shop.html">Shop</a></li>
-                      <li><a href="shop-singel.html">Shop Singel</a></li>
-                    </ul>
+                    <RouterLink to="/shop">Shop</RouterLink>
                   </li>
                   <li class="nav-item">
                     <RouterLink to="/contact">Contact</RouterLink>
-                    <ul class="sub-menu">
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="contact-2.html">Contact Us 2</a></li>
-                    </ul>
                   </li>
                 </ul>
               </div>
