@@ -2,7 +2,8 @@
 
 eDubin is a HTML Template. In this Serious we compeletly convert this template to vue3.
 
-## Project Setup
+## Project Setup eDubin
+**[Live Demo](https://cs-edubin.netlify.app)**
 
 ```sh
 npm install
