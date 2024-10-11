@@ -5,7 +5,7 @@
 <template>
   <div class="support float-left">
     <div class="icon">
-      <img src="../../assets/images/all-icon/support.png" alt="icon">
+      <img src="../../../assets/images/all-icon/support.png" alt="icon">
     </div>
     <div class="cont">
       <p>Need Help? call us free</p>

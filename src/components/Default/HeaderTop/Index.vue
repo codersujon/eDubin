@@ -1,6 +1,6 @@
 <script setup>
-  import HeaderContact from "@/components/HeaderTop/HeaderContact.vue";
-  import OpeningTime from "@/components/HeaderTop/OpeningTime.vue";
+  import HeaderContact from "@/components/Default/HeaderTop/HeaderContact.vue";
+  import OpeningTime from "@/components/Default/HeaderTop/OpeningTime.vue";
 </script>
 
 <template>

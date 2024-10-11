@@ -1,7 +1,7 @@
 <script setup>
-  import Logo from "@/components/HeaderLogoSupport/Logo.vue";
-  import Support from "@/components/HeaderLogoSupport/Support.vue";
-  import PrimaryBtn from "@/components/Primay/PrimaryBtn.vue";
+  import Logo from "@/components/Default/HeaderLogoSupport/Logo.vue";
+  import Support from "@/components/Default/HeaderLogoSupport/Support.vue";
+  import PrimaryBtn from "@/components/Default/Primary/PrimaryBtn.vue";
 </script>
 
 <template>
@@ -15,7 +15,7 @@
           <div class="support-button float-right d-none d-md-block">
               <Support />
             <div class="button float-left">
-              <PrimaryBtn label="Apply Now" link="/"/>
+              <PrimaryBtn label="Apply Now" link="/" />
             </div>
           </div>
         </div>
