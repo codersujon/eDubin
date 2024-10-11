@@ -3,6 +3,7 @@
 </script>
 
 <template>
+
   <footer id="footer-part">
       <div class="footer-top pt-40 pb-70">
         <div class="container">
@@ -110,4 +111,10 @@
         </div> <!-- container -->
       </div> <!-- footer copyright -->
   </footer>
+
+  <!--====== BACK TO TP PART START ======-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!--====== BACK TO TP PART ENDS ======-->
 </template>
